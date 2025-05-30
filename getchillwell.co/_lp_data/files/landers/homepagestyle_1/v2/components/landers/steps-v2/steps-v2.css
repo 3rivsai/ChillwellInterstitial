@@ -1,0 +1,101 @@
+/*========= STEPS (both 2 and 3 steps) ==========*/
+.steps-v2 .steps-v2-container {
+  padding: 35px 15px;
+}
+.steps-v2 .steps-v2-container .steps-v2-header h2 {
+  margin: 0;
+  padding-bottom: 30px;
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 4rem;
+  text-align: center;
+}
+.steps-v2 .steps-v2-container .steps-v2-header p {
+  color: var(--text-lighter);
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: -5px;
+  margin-bottom: 35px;
+}
+.steps-v2 .steps-v2-container .steps-v2 .steps-v2-item {
+  padding-bottom: 30px;
+  max-width: 350px;
+  margin: 0 auto;
+}
+.steps-v2 .steps-v2-container .steps-v2 .steps-v2-item h3 {
+  font-weight: 600;
+  font-size: 2.25rem;
+  line-height: 3rem;
+  margin: 0;
+  padding: 15px 0 10px 0;
+}
+.steps-v2 .steps-v2-container .steps-v2 .steps-v2-item p {
+  color: var(--text-lighter);
+  font-weight: 400;
+  font-size: 1.75rem;
+}
+.steps-v2 .steps-v2-container .steps-v2 .steps-v2-item .steps-v2-item-image img {
+  width: 100%;
+}
+.steps-v2 .steps-v2-container .steps-v2 .steps-v2-item:last-child {
+  padding-bottom: 0;
+}
+
+@media (min-width: 480px) {
+  .steps-v2 .steps-v2-container .steps-v2-header p {
+    max-width: 350px;
+    margin: -5px auto 35px;
+  }
+}
+@media (min-width: 600px) {
+  .steps-v2 .steps-v2-container {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .steps-v2 .steps-v2-container .steps-v2-header h2 {
+    font-size: 4rem;
+    line-height: 5.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .steps-v2 .steps-v2-container {
+    width: auto;
+  }
+  .steps-v2 .steps-v2-container .steps-v2-header h2 {
+    padding-bottom: 50px;
+  }
+  .steps-v2 .steps-v2-container .steps-v2-header p {
+    margin-top: -25px;
+    padding: 0 15px;
+    max-width: 1075px;
+  }
+  .steps-v2 .steps-v2-container .steps-v2 {
+    display: flex;
+    gap: 1rem;
+  }
+  .steps-v2 .steps-v2-container .steps-v2 .steps-v2-item {
+    flex: 1 1 0;
+    padding: 0 10px;
+  }
+}
+@media (min-width: 992px) {
+  .steps-v2 .steps-v2-container .steps-v2-header h2 {
+    font-size: 5rem;
+  }
+  .steps-v2 .steps-v2-container .steps-v2-header p {
+    padding: 0 25px;
+  }
+  .steps-v2 .steps-v2-container .steps-v2 .steps-v2-item {
+    padding: 0 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .steps-v2 .steps-v2-container {
+    max-width: 1170px;
+  }
+  .steps-v2 .steps-v2-container .steps-v2-header p {
+    padding: 0 0;
+  }
+}
+
+/*# sourceMappingURL=steps-v2.css.map */

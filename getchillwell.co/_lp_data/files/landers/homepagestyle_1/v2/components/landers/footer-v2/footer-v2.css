@@ -1,0 +1,88 @@
+/*===== Footer - V2 =====*/
+.footer-v2 .footer-v2-container {
+  border-top: 1px solid var(--text-lightest);
+  padding: 15px;
+}
+.footer-v2 .footer-v2-container .footer-v2-logo {
+  text-align: center;
+}
+.footer-v2 .footer-v2-container .footer-v2-logo img {
+  max-width: 150px;
+}
+.footer-v2 .footer-v2-container .footer-v2-menu {
+  text-align: center;
+  margin-top: 10px;
+}
+.footer-v2 .footer-v2-container .footer-v2-menu span {
+  display: block;
+  padding: 5px 0;
+}
+.footer-v2 .footer-v2-container .footer-v2-menu span a {
+  font-size: 1.75rem;
+  color: var(--text-normal);
+  text-decoration: none;
+}
+.footer-v2 .footer-v2-container .footer-v2-menu .footer-v2-menu-rights {
+  margin-top: 10px;
+  color: var(--text-lightest);
+}
+.footer-v2 .footer-v2-container .footer-v2-order-button {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .footer-v2 .footer-v2-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-v2 .footer-v2-container .footer-v2-logo {
+    display: inline-block;
+  }
+  .footer-v2 .footer-v2-container .footer-v2-logo img {
+    max-width: 175px;
+  }
+  .footer-v2 .footer-v2-container .footer-v2-menu {
+    margin-top: 0;
+  }
+  .footer-v2 .footer-v2-container .footer-v2-menu span {
+    display: inline-block;
+    padding: 0;
+    margin-right: 25px;
+    margin-top: 10px;
+  }
+  .footer-v2 .footer-v2-container .footer-v2-menu .footer-v2-menu-rights {
+    margin-top: 0;
+  }
+}
+@media (min-width: 992px) {
+  .footer-v2 .footer-v2-container .footer-v2-order-button {
+    display: inline-block;
+  }
+  .footer-v2 .footer-v2-container .footer-v2-order-button a {
+    padding: 12px 50px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--text-white);
+    border-radius: 30px;
+    background-color: var(--primary-color);
+  }
+  .footer-v2 .footer-v2-container .footer-v2-order-button a:hover {
+    text-decoration: none;
+    background: var(--primary-hover-color);
+    border-color: var(--primary-hover-color);
+    color: var(--text-white);
+  }
+  .footer-v2 .footer-v2-container .footer-v2-order-button a:focus {
+    text-decoration: none;
+    background: var(--primary-hover-color);
+    border-color: var(--primary-hover-color);
+    color: var(--text-white);
+  }
+}
+
+/*# sourceMappingURL=footer-v2.css.map */

@@ -1,0 +1,202 @@
+/*========== HEADER 2 =============*/
+.header2 .header2-container {
+  padding: 35px 20px;
+}
+.header2 .header2-container .header2-top-banner h2 {
+  font-size: 3.25rem;
+  font-weight: 600;
+  letter-spacing: -2px;
+  line-height: 4.5rem;
+  color: var(--text-normal);
+  margin-top: 0;
+}
+.header2 .header2-container .header2-bottom-banner .header2-bottom-banner-left .watch_img {
+  max-width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+.header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right p {
+  font-size: 1.75rem;
+  color: var(--text-lighter);
+  text-align: left;
+  margin: 15px 0;
+}
+.header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-ul {
+  list-style: none;
+  padding: 0;
+}
+.header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-ul li {
+  display: flex;
+  font-size: 1.75rem;
+  font-weight: 600;
+  padding: 6px 0;
+  color: var(--text-normal);
+}
+.header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-ul li i {
+  color: var(--secondary-2);
+  margin-right: 10px;
+  padding-top: 5px;
+}
+.header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-order-button {
+  margin-top: 30px;
+  text-align: center;
+}
+.header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-order-button a {
+  padding: 12px 50px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 1.75rem;
+  color: var(--text-white);
+  border-radius: 30px;
+  background-color: var(--primary-color);
+}
+.header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-order-button a:hover {
+  text-decoration: none;
+  background: var(--primary-hover-color);
+  border-color: var(--primary-hover-color);
+  color: var(--text-white);
+}
+.header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-order-button a:focus {
+  text-decoration: none;
+  background: var(--primary-hover-color);
+  border-color: var(--primary-hover-color);
+  color: var(--text-white);
+}
+.header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-order-button p {
+  margin: 20px 0 0 0;
+  font-size: 1.25rem;
+  color: var(--text-lighter);
+  text-align: center;
+}
+
+@media (min-width: 480px) {
+  .header2 .header2-container .header2-top-banner h2 {
+    font-size: 4rem;
+    line-height: 5.5rem;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-left .watch_img {
+    max-width: 60%;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right p {
+    padding: 0 20px;
+    font-size: 2rem;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-ul {
+    padding: 0 20px;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-ul li {
+    font-size: 2.25rem;
+    padding: 7px 0;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-ul li i {
+    padding-top: 3px;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-order-button a {
+    font-size: 2rem;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-order-button p {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 600px) {
+  .header2 .header2-container {
+    padding: 45px 20px;
+  }
+  .header2 .header2-container .header2-top-banner h2 {
+    font-size: 4.75rem;
+    line-height: 6.5rem;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-left .watch_img {
+    max-width: 50%;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right p {
+    font-size: 2.25rem;
+    padding: 0 35px;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-ul {
+    padding: 0 40px;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-ul li {
+    font-size: 2.5rem;
+    padding: 10px 0;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-order-button a {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .header2 .header2-container .header2-top-banner h2 {
+    font-size: 5rem;
+    line-height: 7rem;
+  }
+  .header2 .header2-container .header2-bottom-banner {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 35px;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-left {
+    display: inline-block;
+    width: 50%;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-left .watch_img {
+    position: relative;
+    top: -10px;
+    max-width: 325px;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right {
+    display: inline-block;
+    width: 50%;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right p {
+    font-size: 1.75rem;
+    padding: 0 10px;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-ul {
+    padding: 0 10px;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-ul li {
+    font-size: 2rem;
+    padding: 6px 0;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-order-button {
+    margin: 30px 0;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-order-button a {
+    font-size: 2.25rem;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-order-button p {
+    margin: 25px 0 0 0;
+  }
+}
+@media (min-width: 992px) {
+  .header2 .header2-container {
+    width: 970px;
+    margin: 0 auto;
+  }
+  .header2 .header2-container .header2-top-banner h2 {
+    font-size: 5.5rem;
+    line-height: 7rem;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-left .watch_img {
+    top: -15px;
+    max-width: 400px;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right p {
+    font-size: 2rem;
+  }
+  .header2 .header2-container .header2-bottom-banner .header2-bottom-banner-right .header2-ul li {
+    font-size: 2.25rem;
+    padding: 10px 0;
+  }
+}
+@media (min-width: 1200px) {
+  .header2 .header2-container {
+    width: 1170px;
+  }
+  .header2 .header2-container .header2-top-banner h2 {
+    font-size: 7rem;
+    line-height: 9rem;
+  }
+}
+
+/*# sourceMappingURL=header2.css.map */

@@ -1,0 +1,86 @@
+/*========= Usage list ==========*/
+.usage .container {
+  padding: 35px 20px;
+}
+.usage .container h2 {
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  line-height: 4rem;
+  color: var(--text-normal);
+}
+.usage .container .usage-subtitle {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 3.5rem;
+  color: var(--primary-color);
+}
+.usage .container .usage-list-wrap {
+  display: flex;
+  padding: 20px 0;
+}
+.usage .container .usage-list-wrap .usage-list {
+  flex-direction: column;
+  margin: 0 auto;
+}
+.usage .container .usage-list-wrap .usage-list .usage-column {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+.usage .container .usage-list-wrap .usage-list .usage-column li {
+  font-size: 2rem;
+  line-height: 2.75rem;
+  color: var(--text-normal);
+  display: flex;
+  align-items: center;
+  padding: 4px 0;
+}
+.usage .container .usage-list-wrap .usage-list .usage-column li img {
+  height: 26px;
+  margin-right: 10px;
+}
+.usage .container .usage-text {
+  font-size: 2rem;
+  line-height: 3rem;
+  color: var(--text-normal);
+}
+.usage .container .usage-preview {
+  max-width: 480px;
+  margin: 0 auto;
+}
+.usage .container .usage-preview img {
+  width: 100%;
+  max-width: 420px;
+}
+
+@media (min-width: 768px) {
+  .usage .container {
+    padding: 45px 20px;
+  }
+  .usage .container h2 {
+    font-size: 5rem;
+  }
+  .usage .container .usage-subtitle {
+    line-height: 5rem;
+  }
+  .usage .container .usage-list-wrap {
+    padding-top: 0;
+  }
+  .usage .container .usage-list-wrap .usage-list {
+    display: flex;
+    flex-direction: row;
+  }
+  .usage .container .usage-list-wrap .usage-list .usage-column {
+    flex: 1 1 0;
+    list-style: none;
+    padding: 0 10px;
+  }
+  .usage .container .usage-text {
+    padding: 10px 0;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=usage-list.css.map */

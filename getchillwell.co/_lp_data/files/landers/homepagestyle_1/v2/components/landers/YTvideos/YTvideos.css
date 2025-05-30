@@ -1,0 +1,154 @@
+/*========= Video ==========*/
+.video {
+  padding-bottom: 150px;
+}
+.video .video-bg {
+  border-bottom: 1px solid #cddbe3;
+  padding: 90px 0 0;
+}
+.video .section-header {
+  margin-bottom: 8px;
+}
+.video .section-header h2 {
+  font-size: 47px;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+.video .section-header::after {
+  display: none;
+}
+.video .arrow-holder {
+  text-align: left;
+}
+.video .modal-body {
+  padding: 0;
+  position: relative;
+}
+.video .modal-body .close {
+  color: var(--text-white);
+  position: absolute;
+  padding: 0 5px;
+  right: -25px;
+  top: -45px;
+  z-index: 999;
+  font-size: 45px;
+  font-weight: 300;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+.video .modal-body .close:hover {
+  opacity: 0.5;
+}
+.video .video-tophide {
+  top: 0;
+  height: 65px;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.video .video-wrap {
+  padding-bottom: 56.25%;
+}
+.video .video-wrap iframe {
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.video .video-wrap.square {
+  padding-bottom: 100%;
+}
+
+.video-btn-wrap {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin: -120px auto -50px;
+}
+
+.video-btn {
+  display: inline-block;
+}
+.video-btn img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.modal {
+  text-align: center;
+}
+.modal:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 20px;
+  margin: auto;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.modal-content {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.youtube-player {
+  display: block;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  background-color: var(--text-normal);
+  overflow: hidden;
+}
+.youtube-player iframe {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 991px) {
+  .video .section-header h2 {
+    font-size: 30px;
+  }
+  .video .arrow-holder img {
+    max-width: 25px;
+    position: relative;
+    top: -32px;
+    left: -10px;
+  }
+  .video-btn-wrap {
+    margin-top: -45px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .video {
+    padding-bottom: 100px;
+  }
+  .video .video-wrap {
+    padding-bottom: 100%;
+  }
+  .video .video-wrap.rectangle {
+    padding-bottom: 56.25%;
+  }
+  .video .video-wrap.square {
+    padding-bottom: 100%;
+  }
+}
+
+/*# sourceMappingURL=YTvideos.css.map */

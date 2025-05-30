@@ -1,0 +1,76 @@
+/* ===== Usage List V3 ===== */
+.usage-list-v3 .usage-list-v3-container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+}
+.usage-list-v3 .usage-list-v3-container .usage-list-v3-left .usage-list-v3-left-img {
+  display: block;
+  margin: 15px auto;
+  width: 100%;
+  max-width: 420px;
+}
+.usage-list-v3 .usage-list-v3-container .usage-list-v3-right {
+  background-color: #fafafa;
+  padding: 10px;
+}
+.usage-list-v3 .usage-list-v3-container .usage-list-v3-right .usage-list-v3-right-content .usage-list-v3-title {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+.usage-list-v3 .usage-list-v3-container .usage-list-v3-right .usage-list-v3-right-content .usage-list-v3-sub-title {
+  font-size: 18px;
+  line-height: 32px;
+}
+.usage-list-v3 .usage-list-v3-container .usage-list-v3-right .usage-list-v3-right-content .usage-list-v3-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  row-gap: 10px;
+  margin: 15px 0 0 0;
+}
+.usage-list-v3 .usage-list-v3-container .usage-list-v3-right .usage-list-v3-right-content .usage-list-v3-list .usage-list-v3-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  width: 48%;
+}
+.usage-list-v3 .usage-list-v3-container .usage-list-v3-right .usage-list-v3-right-content .usage-list-v3-list .usage-list-v3-list-item span {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  .usage-list-v3 .usage-list-v3-container {
+    flex-direction: row;
+  }
+  .usage-list-v3 .usage-list-v3-container .usage-list-v3-left {
+    width: 50%;
+  }
+  .usage-list-v3 .usage-list-v3-container .usage-list-v3-right {
+    width: 50%;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .usage-list-v3 .usage-list-v3-container .usage-list-v3-right .usage-list-v3-right-content .usage-list-v3-title {
+    font-size: 25px;
+  }
+  .usage-list-v3 .usage-list-v3-container .usage-list-v3-right .usage-list-v3-right-content .usage-list-v3-list {
+    gap: 20px;
+  }
+  .usage-list-v3 .usage-list-v3-container .usage-list-v3-right .usage-list-v3-right-content .usage-list-v3-list .usage-list-v3-list-item {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=usage-list-v3.css.map */

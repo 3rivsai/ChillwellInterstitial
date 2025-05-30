@@ -1,0 +1,51 @@
+/*===== Picture showcase =====*/
+.picture-showcase .picture-showcase-container .picture-showcase-row {
+  display: none;
+}
+.picture-showcase .picture-showcase-container .picture-showcase-carousel {
+  text-align: center;
+}
+.picture-showcase .picture-showcase-container .picture-showcase-carousel img {
+  width: 100%;
+  max-width: 350px;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.picture-showcase .picture-showcase-container .picture-showcase-carousel .owl-dot {
+  zoom: 1.5;
+}
+.picture-showcase .picture-showcase-container .picture-showcase-carousel .active span {
+  background-color: var(--primary-color);
+}
+
+@media (min-width: 600px) {
+  .picture-showcase .picture-showcase-container .picture-showcase-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .picture-showcase .picture-showcase-container .picture-showcase-row .picture-showcase-image img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 350px;
+  }
+  .picture-showcase .picture-showcase-container .picture-showcase-row .picture-showcase-image {
+    width: 50%;
+  }
+  .picture-showcase .picture-showcase-container .picture-showcase-carousel {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .picture-showcase {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  .picture-showcase .picture-showcase-container .picture-showcase-row .picture-showcase-image {
+    width: 25%;
+  }
+}
+
+/*# sourceMappingURL=picture-showcase.css.map */

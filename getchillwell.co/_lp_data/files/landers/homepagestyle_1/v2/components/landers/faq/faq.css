@@ -1,0 +1,112 @@
+/*========= FAQ ==========*/
+.faq .container {
+  padding: 35px 15px;
+}
+.faq .container h2 {
+  font-size: 3rem;
+  line-height: 4.5rem;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 0;
+  color: var(--text-normal);
+}
+.faq .container .faq-description p {
+  font-size: 1.75rem;
+  text-align: center;
+  color: var(--text-light);
+  margin: 20px 0;
+}
+.faq .container .panel-title {
+  margin: 0;
+  padding: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.faq .container .panel-title a {
+  color: var(--text-normal);
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.faq .container .panel-title a span {
+  display: none;
+}
+.faq .container .panel-title a div {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  transform: rotate(-90deg);
+  transition: all 0.2s ease-in-out;
+}
+.faq .container .panel-title a div::before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 14px;
+  height: 4px;
+  background-color: var(--primary-hover-color);
+  transform: rotate(-90deg);
+}
+.faq .container .panel-title a div::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 14px;
+  height: 4px;
+  background-color: var(--primary-hover-color);
+  opacity: 0;
+  transition: opacity 0.15s ease-in-out;
+}
+.faq .container .panel-title a.collapsed {
+  text-decoration: none;
+}
+.faq .container .panel-title a.collapsed div {
+  transform: rotate(0);
+}
+.faq .container .panel-title a.collapsed div::before {
+  background-color: var(--primary-color);
+}
+.faq .container .panel-title a.collapsed div::after {
+  background-color: var(--primary-color);
+  opacity: 1;
+}
+.faq .container .panel-body {
+  font-size: 2rem;
+  padding: 20px;
+  color: var(--text-normal);
+}
+
+@media (min-width: 768px) {
+  .faq .container {
+    padding: 45px 20px;
+    width: 768px;
+  }
+  .faq .container h2 {
+    font-size: 5rem;
+    line-height: 6.5rem;
+  }
+  .faq .container .panel-title {
+    padding: 18px 25px;
+  }
+  .faq .container .panel-title a span {
+    display: inline;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-right: 10px;
+  }
+  .faq .container .panel-title a div::before {
+    width: 20px;
+    height: 4px;
+  }
+  .faq .container .panel-title a div::after {
+    width: 20px;
+    height: 4px;
+  }
+}
+
+/*# sourceMappingURL=faq.css.map */

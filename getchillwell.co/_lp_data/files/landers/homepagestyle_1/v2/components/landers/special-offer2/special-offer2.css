@@ -1,0 +1,79 @@
+/*===== Special offer 2 =====*/
+.special-offer2 .special-offer2-container {
+  padding: 35px 15px;
+}
+.special-offer2 .special-offer2-container .special-offer2-title {
+  text-align: center;
+  color: var(--primary-color);
+}
+.special-offer2 .special-offer2-container .special-offer2-title .special-offer2-title1 {
+  font-size: 3rem;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-top: 0;
+}
+.special-offer2 .special-offer2-container .special-offer2-title .special-offer2-title2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--secondary-2);
+}
+.special-offer2 .special-offer2-container .special-offer2-img {
+  text-align: center;
+}
+.special-offer2 .special-offer2-container .special-offer2-img img {
+  max-width: 250px;
+}
+.special-offer2 .special-offer2-container .special-offer2-order {
+  margin: 25px auto;
+  text-align: center;
+}
+.special-offer2 .special-offer2-container .special-offer2-order a {
+  font-weight: 600;
+  font-size: 2rem;
+  color: var(--text-white);
+  background-color: var(--primary-color);
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+.special-offer2 .special-offer2-container .special-offer2-order a:hover {
+  text-decoration: none;
+  background: var(--primary-hover-color);
+  border-color: var(--primary-hover-color);
+  color: var(--text-white);
+}
+.special-offer2 .special-offer2-container .special-offer2-order a:focus {
+  text-decoration: none;
+  background: var(--primary-hover-color);
+  border-color: var(--primary-hover-color);
+  color: var(--text-white);
+}
+.special-offer2 .special-offer2-container .special-offer2-extra {
+  margin-top: 35px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+@media (min-width: 480px) {
+  .special-offer2 .special-offer2-container .special-offer2-img img {
+    max-width: 350px;
+  }
+}
+@media (min-width: 600px) {
+  .special-offer2 .special-offer2-container .special-offer2-title .special-offer2-title1 {
+    font-size: 4rem;
+  }
+  .special-offer2 .special-offer2-container .special-offer2-title .special-offer2-title2 {
+    font-size: 4rem;
+  }
+  .special-offer2 .special-offer2-container .special-offer2-order a {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .special-offer2 .special-offer2-container {
+    padding: 45px 15px;
+  }
+}
+
+/*# sourceMappingURL=special-offer2.css.map */

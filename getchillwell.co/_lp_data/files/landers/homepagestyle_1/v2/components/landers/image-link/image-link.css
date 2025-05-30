@@ -1,0 +1,33 @@
+/* ===== Image link ===== */
+.image-link .image-link-container {
+  margin: 30px 0;
+  padding: 0 10px;
+}
+.image-link .image-link-container .image-link-note-top {
+  display: block;
+  font-size: 18px;
+  color: var(--text-normal);
+  margin-bottom: 10px;
+  line-height: 23px;
+}
+.image-link .image-link-container a {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  text-decoration: none;
+  max-width: 768px;
+}
+.image-link .image-link-container img {
+  display: block;
+  margin: 0 auto;
+  max-width: 768px;
+}
+.image-link .image-link-container .image-link-note-bottom {
+  display: block;
+  font-size: 15px;
+  color: var(--text-normal);
+  margin-top: 5px;
+  line-height: 20px;
+}
+
+/*# sourceMappingURL=image-link.css.map */

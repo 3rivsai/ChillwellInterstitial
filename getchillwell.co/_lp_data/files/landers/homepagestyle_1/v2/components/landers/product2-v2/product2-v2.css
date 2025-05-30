@@ -1,0 +1,275 @@
+/*========= The Product ==========*/
+.product2-v2 .container {
+  margin: 0 auto;
+  padding: 35px 20px;
+}
+.product2-v2 .container h2 {
+  font-size: 3.25rem;
+  line-height: 4.5rem;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 25px;
+  margin-top: 0;
+  color: var(--text-normal);
+}
+.product2-v2 .container .product2-v2-description p {
+  margin: 25px 0;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: left;
+  color: var(--text-normal);
+}
+
+@media (min-width: 600px) {
+  .product2-v2 .container {
+    width: 480px;
+  }
+  .product2-v2 .container h2 {
+    font-size: 4.25rem;
+    line-height: 5.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .product2-v2 .container {
+    width: 600px;
+  }
+}
+@media (min-width: 992px) {
+  .product2-v2 .container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+  }
+  .product2-v2 .container .product2-v2-content {
+    width: 50%;
+    padding: 0 20px;
+  }
+  .product2-v2 .container .product2-v2-content h2 {
+    font-size: 5rem;
+    line-height: 7rem;
+  }
+  .product2-v2 .container .product2-v2-image {
+    width: 50%;
+    padding: 0 20px;
+  }
+  .image-left .product2-v2-image {
+    order: 0;
+  }
+  .image-left .product2-v2-content {
+    order: 1;
+  }
+  .image-right .product2-v2-content {
+    order: 0;
+  }
+  .image-right .product2-v2-image {
+    order: 1;
+  }
+}
+/*========= Feature Notes ==========*/
+.apple-watch-note-feature {
+  position: relative;
+  max-width: 555px;
+  width: 100%;
+  margin: 130px auto;
+}
+.apple-watch-note-feature img {
+  width: inherit;
+}
+.apple-watch-note-feature .feature-note {
+  color: var(--primary-color);
+  position: absolute;
+  display: -webkit-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 300ms linear 0s;
+  width: 50%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  -webkit-transition: all 300ms linear 0s;
+}
+.apple-watch-note-feature .feature-note .indicator {
+  width: 49px;
+  transition: all 300ms linear 0s;
+  -webkit-transition: all 300ms linear 0s;
+}
+.apple-watch-note-feature .feature-note .indicator .plus-icon {
+  height: 49px;
+  width: 49px;
+  border-radius: 100%;
+  padding: 8px;
+  position: relative;
+  transition: all 300ms linear 0s;
+  transition-duration: 150ms;
+  -webkit-transition: all 300ms linear 0s;
+  -webkit-transition-duration: 150ms;
+}
+.apple-watch-note-feature .feature-note .indicator .plus-icon:before {
+  border-color: var(--primary-color);
+  content: "";
+  width: 49px;
+  height: 49px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 2px solid;
+  border-radius: 100%;
+  z-index: 0;
+  animation: doublePulse 1.5s ease infinite;
+  -webkit-animation: doublePulse 1.5s ease infinite;
+}
+.apple-watch-note-feature .feature-note .indicator .plus-icon:after {
+  background: var(--primary-color);
+  content: "";
+  height: 2px;
+  display: block;
+  margin-top: -17px;
+  width: 0;
+  transition: all 300ms linear 0s;
+  transition-duration: 150ms;
+  -webkit-transition: all 300ms linear 0s;
+  -webkit-transition-duration: 150ms;
+}
+.apple-watch-note-feature .feature-note .indicator .plus-icon .plus {
+  background: var(--primary-color);
+  color: var(--text-white);
+  border-radius: 100px;
+  width: 100%;
+  display: block;
+  line-height: 31px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  transition: all 300ms linear 0s;
+  -webkit-transition: all 300ms linear 0s;
+}
+.apple-watch-note-feature .feature-note .feature-name {
+  text-transform: uppercase;
+  line-height: 20px;
+  position: relative;
+  letter-spacing: 0.2px;
+  padding-bottom: 70px;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  -webkit-transform: scaleY(0);
+  -webkit-transform-origin: bottom;
+}
+.apple-watch-note-feature .feature-note .feature-name:before {
+  background: var(--primary-color);
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 58px;
+  left: calc(50% - 4px);
+  transition: all 300ms linear 0s;
+  -webkit-transition: all 300ms linear 0s;
+}
+.apple-watch-note-feature .feature-note .feature-name:after {
+  background: var(--primary-color);
+  content: "";
+  display: block;
+  width: 2px;
+  height: 58px;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 1px);
+  transition: all 300ms linear 0s;
+  -webkit-transition: all 300ms linear 0s;
+}
+.apple-watch-note-feature .feature-note.top.right {
+  bottom: 70%;
+  right: 0;
+  flex-direction: column-reverse;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+}
+.apple-watch-note-feature .feature-note.top.left {
+  bottom: 70%;
+  left: 0;
+  flex-direction: column-reverse;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+}
+.apple-watch-note-feature .feature-note.bottom.right {
+  top: 80%;
+  right: 0;
+}
+.apple-watch-note-feature .feature-note.bottom.right .feature-name {
+  padding-bottom: 0;
+  padding-top: 70px;
+  transform-origin: top;
+  -webkit-transform-origin: top;
+}
+.apple-watch-note-feature .feature-note.bottom.right .feature-name::before {
+  bottom: auto;
+  top: 58px;
+}
+.apple-watch-note-feature .feature-note.bottom.right .feature-name::after {
+  bottom: auto;
+  top: 0;
+}
+.apple-watch-note-feature .feature-note.bottom.left {
+  top: 80%;
+  left: 0;
+}
+.apple-watch-note-feature .feature-note.bottom.left .feature-name {
+  padding-bottom: 0;
+  padding-top: 70px;
+  transform-origin: top;
+  -webkit-transform-origin: top;
+}
+.apple-watch-note-feature .feature-note.bottom.left .feature-name::before {
+  bottom: auto;
+  top: 58px;
+}
+.apple-watch-note-feature .feature-note.bottom.left .feature-name::after {
+  bottom: auto;
+  top: 0;
+}
+.apple-watch-note-feature .feature-note.show-cont .feature-name {
+  transform: scaleY(1);
+  transition: -webkit-transform 150ms ease 150ms;
+  transition: transform 150ms ease 150ms, -webkit-transform 150ms ease 150ms;
+  -webkit-transform: scaleY(1);
+  -webkit-transition: -webkit-transform 150ms ease 150ms;
+}
+
+@media (min-width: 992px) {
+  .apple-watch-note-feature {
+    margin: 80px auto;
+  }
+}
+/*============= Custom Animation =============*/
+@-webkit-keyframes doublePulse {
+  0% {
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+@keyframes doublePulse {
+  0% {
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+/*# sourceMappingURL=product2-v2.css.map */

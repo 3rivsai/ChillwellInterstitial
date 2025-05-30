@@ -1,0 +1,27 @@
+/*========= As seen ==========*/
+.asseen {
+  padding: 35px 0;
+}
+
+.asseenin-art {
+  display: none;
+}
+
+.asseenin-art-sml {
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .asseen {
+    padding: 45px 0;
+  }
+  .asseenin-art-sml {
+    display: none;
+  }
+  .asseenin-art {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=as-seen-on.css.map */

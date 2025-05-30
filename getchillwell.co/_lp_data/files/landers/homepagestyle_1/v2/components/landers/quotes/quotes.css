@@ -1,0 +1,105 @@
+/*========= Quote box ==========*/
+.quote {
+  padding: 25px 0;
+}
+.quote .container {
+  padding: 0 15px;
+}
+
+.quote-box {
+  margin: 50px 0;
+}
+
+.quote-box-top {
+  border: 1px solid var(--primary-color);
+  background: var(--bg-light-mocha);
+  padding: 30px 30px 50px;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.75rem;
+  color: var(--text-normal);
+  text-align: center;
+}
+
+.quote-box-profile {
+  display: block;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: -30px;
+}
+.quote-box-profile .quote-box-sender img {
+  max-width: 110px;
+}
+.quote-box-profile .stars {
+  display: flex;
+  justify-content: flex-end;
+}
+.quote-box-profile .stars img {
+  margin: 0 2px;
+  display: inline;
+  width: 25px;
+}
+
+.quote-box-sender {
+  justify-content: space-between;
+  margin-left: 0;
+  display: flex;
+}
+
+.quote-box-rating {
+  text-align: right;
+  margin-top: -50px;
+}
+
+.quote-box-name {
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 600;
+  margin: 35px 0 0 10px;
+  color: var(--text-dark);
+}
+
+.quote-box-profession {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin: 0 0 5px;
+}
+
+#quote-carousel {
+  padding: 0 30px;
+}
+#quote-carousel .owl-prev {
+  background-color: transparent;
+  margin-left: 0;
+}
+#quote-carousel .owl-next {
+  background-color: transparent;
+  margin-right: 0;
+}
+#quote-carousel .owl-nav {
+  max-width: none;
+}
+
+.quote-prev {
+  border: solid var(--primary-color);
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  border-width: 0 2px 2px 0;
+  transform: rotate(-45deg);
+  left: -5px;
+}
+
+.quote-next {
+  border: solid var(--primary-color);
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  border-width: 0 2px 2px 0;
+  transform: rotate(-45deg);
+  right: 5px;
+}
+
+/*# sourceMappingURL=quotes.css.map */

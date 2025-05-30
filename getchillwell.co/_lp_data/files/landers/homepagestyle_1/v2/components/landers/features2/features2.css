@@ -1,0 +1,97 @@
+/*===== Features 2 =====*/
+.features2 .features2-container {
+  padding: 35px 15px;
+}
+.features2 .features2-container .features2-top h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+  color: var(--text-normal);
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.features2 .features2-container .features2-top p {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--text-light);
+}
+.features2 .features2-container .features2-bottom .features2-middle {
+  text-align: center;
+}
+.features2 .features2-container .features2-bottom .features2-middle .features2-middle-img img {
+  width: 100%;
+  max-width: 420px;
+  max-height: 100%;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+.features2 .features2-container .features2-bottom .features2-middle .owl-dot {
+  zoom: 1.5;
+}
+.features2 .features2-container .features2-bottom .features2-middle .active span {
+  background-color: var(--primary-color);
+}
+.features2 .features2-container .features2-bottom .features2-item {
+  text-align: center;
+  margin-top: 20px;
+}
+.features2 .features2-container .features2-bottom .features2-item img {
+  width: 50px;
+}
+.features2 .features2-container .features2-bottom .features2-item h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+  color: var(--primary-color);
+  margin-top: 10px;
+}
+.features2 .features2-container .features2-bottom .features2-item p {
+  font-size: 2rem;
+  color: var(--text-light);
+}
+
+@media (min-width: 768px) {
+  .features2 .features2-container {
+    padding: 45px 15px;
+  }
+  .features2 .features2-container .features2-top h2 {
+    font-size: 5rem;
+  }
+  .features2 .features2-container .features2-top p {
+    margin: 25px 0;
+  }
+}
+@media (min-width: 992px) {
+  .features2 .features2-container {
+    padding: 45px 40px;
+  }
+  .features2 .features2-container .features2-top h2 {
+    font-size: 6rem;
+  }
+  .features2 .features2-container .features2-bottom {
+    display: flex;
+    flex-direction: row;
+  }
+  .features2 .features2-container .features2-bottom .features2-left {
+    width: 25%;
+  }
+  .features2 .features2-container .features2-bottom .features2-middle {
+    width: 50%;
+  }
+  .features2 .features2-container .features2-bottom .features2-middle .features2-middle-img img {
+    max-width: 480px;
+    padding: 50px 30px 0 30px;
+  }
+  .features2 .features2-container .features2-bottom .features2-right {
+    width: 25%;
+  }
+}
+@media (min-width: 1200px) {
+  .features2 .features2-container {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 45px 15px;
+  }
+}
+
+/*# sourceMappingURL=features2.css.map */

@@ -1,0 +1,72 @@
+/*========= Sale Info V2 ==========*/
+.sale-info-v2 .container {
+  text-align: center;
+  padding: 35px 15px;
+}
+.sale-info-v2 .container .sale-info-title {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4rem;
+  color: var(--primary-color);
+}
+.sale-info-v2 .container .sale-info-sub-title {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin: 20px 0;
+}
+.sale-info-v2 .container .sale-info-sub-title2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 15px;
+  color: var(--text-normal);
+}
+.sale-info-v2 .container .highlight {
+  font-weight: 700;
+  color: var(--secondary-2);
+}
+.sale-info-v2 .container .sale-info-v2-order-button {
+  display: block;
+  padding: 20px 0;
+  text-align: center;
+}
+.sale-info-v2 .container .sale-info-v2-order-button a {
+  padding: 12px 50px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 2.25rem;
+  color: var(--text-white);
+  border-radius: 30px;
+  background-color: var(--primary-color);
+}
+.sale-info-v2 .container .sale-info-v2-order-button a:hover {
+  text-decoration: none;
+  background: var(--primary-hover-color);
+  border-color: var(--primary-hover-color);
+  color: var(--text-white);
+}
+.sale-info-v2 .container .sale-info-v2-order-button a:focus {
+  text-decoration: none;
+  background: var(--primary-hover-color);
+  border-color: var(--primary-hover-color);
+  color: var(--text-white);
+}
+
+@media (min-width: 600px) {
+  .sale-info-v2 .container .sale-info-title {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+}
+@media (min-width: 768px) {
+  .sale-info-v2 .container .sale-info-title {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+  .sale-info-v2 .container .sale-info-sub-title2 {
+    margin-bottom: 25px;
+  }
+}
+
+/*# sourceMappingURL=sale-info-v2.css.map */

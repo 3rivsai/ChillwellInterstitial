@@ -1,0 +1,51 @@
+/*========= Small Side Popup ==========*/
+.small-side-popup {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .small-side-popup {
+    z-index: 999;
+    display: unset;
+    position: fixed;
+    left: -600px;
+    bottom: 15px;
+    transition: 0.5s ease;
+  }
+  .small-side-popup .container {
+    background: linear-gradient(90deg, var(--secondary-2) 15%, var(--secondary-1) 100%);
+    padding: 10px 0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.25);
+  }
+  .small-side-popup .container .popup-img {
+    display: inline;
+  }
+  .small-side-popup .container .popup-img img {
+    max-width: 100px;
+  }
+  .small-side-popup .container .popup-content {
+    display: inline;
+  }
+  .small-side-popup .container .popup-content .popup-close {
+    position: absolute;
+    top: -5px;
+    right: 7px;
+    font-size: 3.5rem;
+    cursor: pointer;
+  }
+  .small-side-popup .container .popup-content .popup-text {
+    display: block;
+    margin: 15px 30px 5px 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .small-side-popup .container .popup-content .popup-text .popup-text-bottom {
+    margin-top: 10px;
+  }
+}
+
+/*# sourceMappingURL=small-side-popup.css.map */

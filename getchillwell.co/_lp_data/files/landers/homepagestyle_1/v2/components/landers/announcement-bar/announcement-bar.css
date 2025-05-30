@@ -1,0 +1,24 @@
+/*===== ANNOUNCEMENT BAR =====*/
+.announcement-bar {
+  padding: 1rem 1rem;
+  background-color: red;
+  color: white;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  z-index: 1000;
+}
+.announcement-bar .announcement-bar-value {
+  color: yellow;
+}
+.announcement-bar .announcement-bar-message {
+  font-size: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .announcement-bar .announcement-bar-message {
+    font-size: 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=announcement-bar.css.map */

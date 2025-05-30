@@ -1,0 +1,205 @@
+/*============= Global =============*/
+@import url("../components/landers/announcement-bar/announcement-bar.css");
+@import url("../components/landers/navbar/navbar.css");
+@import url("../components/landers/header1/header1.css");
+@import url("../components/landers/header1-v2/header1-v2.css");
+@import url("../components/landers/header2/header2.css");
+@import url("../components/landers/header3/header3.css");
+@import url("../components/landers/header4-rework/header4-rework.css");
+@import url("../components/landers/header5-rework/header5-rework.css");
+@import url("../components/landers/product/product.css");
+@import url("../components/landers/product1-v2/product1-v2.css");
+@import url("../components/landers/product1-with-image-v2/product1-with-image-v2.css");
+@import url("../components/landers/product2-v2/product2-v2.css");
+@import url("../components/landers/benefits/benefits.css");
+@import url("../components/landers/picture-showcase/picture-showcase.css");
+@import url("../components/landers/the-watch/the-watch.css");
+@import url("../components/landers/the-watch-v2/the-watch-v2.css");
+@import url("../components/landers/faq/faq.css");
+@import url("../components/landers/sale-info/sale-info.css");
+@import url("../components/landers/sale-info-v2/sale-info-v2.css");
+@import url("../components/landers/usage-list/usage-list.css");
+@import url("../components/landers/usage-list-v2/usage-list-v2.css");
+@import url("../components/landers/usage-list-v3/usage-list-v3.css");
+@import url("../components/landers/quotes/quotes.css");
+@import url("../components/landers/quotes2/quotes2.css");
+@import url("../components/landers/quotes-v2/quotes-v2.css");
+@import url("../components/landers/YTvideos/YTvideos.css");
+@import url("../components/landers/as-seen-on/as-seen-on.css");
+@import url("../components/landers/special-offer/special-offer.css");
+@import url("../components/landers/special-offer-v2/special-offer-v2.css");
+@import url("../components/landers/features-rework/features-rework.css");
+@import url("../components/landers/features2/features2.css");
+@import url("../components/landers/features2-v2/features2-v2.css");
+@import url("../components/landers/product3/product3.css");
+@import url("../components/landers/product4/product4.css");
+@import url("../components/landers/highlight-paragraph/highlight-paragraph.css");
+@import url("../components/landers/highlight-paragraph-v2/highlight-paragraph-v2.css");
+@import url("../components/landers/more-features/more-features.css");
+@import url("../components/landers/reviews/reviews.css");
+@import url("../components/landers/reviews-v2/reviews-v2.css");
+@import url("../components/landers/reviews2/reviews2.css");
+@import url("../components/landers/reviews2-v2/reviews2-v2.css");
+@import url("../components/landers/steps/steps.css");
+@import url("../components/landers/steps-v2/steps-v2.css");
+@import url("../components/landers/call-to-action/call-to-action.css");
+@import url("../components/landers/call-to-action-v2/call-to-action-v2.css");
+@import url("../components/landers/recommended-by/recommended-by.css");
+@import url("../components/landers/recommended-by-v2/recommended-by-v2.css");
+@import url("../components/landers/special-offer2/special-offer2.css");
+@import url("../components/landers/special-offer2-v2/special-offer2-v2.css");
+@import url("../components/landers/reviews3/reviews3.css");
+@import url("../components/landers/small-side-popup/small-side-popup.css");
+@import url("../components/landers/footer2/footer2.css");
+@import url("../components/landers/exit-modal/exit-modal.css");
+@import url("../components/landers/exit-modal-v2/exit-modal-v2.css");
+@import url("../components/landers/fb-comments/fb-comments.css");
+@import url("../components/landers/fb-posts/fb-posts.css");
+@import url("../components/landers/image-link/image-link.css");
+@import url("../components/landers/button/button.css");
+@import url("../components-old/landers/header4/header4.css");
+@import url("../components-old/landers/header5/header5.css");
+@import url("../components-old/landers/features/features.css");
+@import url("../components/landers/footer/footer.css");
+@import url("../components/landers/footer-v2/footer-v2.css");
+* {
+  font-family: "Poppins", sans-serif;
+  direction: ltr;
+}
+
+body {
+  position: relative;
+}
+
+section.row, header.row, footer.row {
+  margin: 0;
+}
+
+.bg-light-salmon {
+  background-color: #ffa07a;
+}
+
+.bg-light-salmon-pink {
+  background-color: #ff9999;
+}
+
+.bg-light-mocha {
+  background-color: #fdf5e6;
+}
+
+.bg-light-brown {
+  background-color: #faf0e6;
+}
+
+.bg-light-orange {
+  background-color: #ffdab9;
+}
+
+.bg-light-gold {
+  background-color: #f1e5ac;
+}
+
+.bg-light-yellow {
+  background-color: #ffffe0;
+}
+
+.bg-light-green {
+  background-color: #d2e8d8;
+}
+
+.bg-light-blue {
+  background-color: #d9e6ed;
+}
+
+.bg-light-purple {
+  background-color: #e6e6fa;
+}
+
+.bg-light-pink {
+  background-color: #ffe7e9;
+}
+
+.bg-light-gray {
+  background-color: #f8fbfd;
+}
+
+.bg-gray {
+  background-color: #dadbdd;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.text-light {
+  color: var(--text-light);
+}
+
+.text-normal {
+  color: var(--text-normal);
+}
+
+.text-dark {
+  color: var(--text-dark);
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/*============= Homepage Components =============*/
+/* ===== LTR ===== */
+/* ===== OLD DEPRECATED COMPONENTS ===== */
+/*========= Slider ========== ==> Wordt gebruikt bij 'reviews' en 'quotes' */
+/* ===== LTR ===== */
+.owl-nav {
+  position: absolute;
+  top: calc(50% - 80px);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+.owl-prev {
+  width: 20px;
+  height: 80px;
+  background-color: var(--text-normal);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.owl-prev img {
+  margin-left: 5px;
+}
+
+.owl-next {
+  width: 20px;
+  height: 80px;
+  background-color: var(--text-normal);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.owl-next img {
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

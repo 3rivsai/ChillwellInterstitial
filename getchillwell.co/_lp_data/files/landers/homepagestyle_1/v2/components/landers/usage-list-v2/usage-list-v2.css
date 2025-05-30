@@ -1,0 +1,113 @@
+/*========= Usage list - V2 ==========*/
+.usage-list-v2 .container {
+  padding: 35px 20px;
+}
+.usage-list-v2 .container .left {
+  max-width: 480px;
+  margin: 0 auto;
+}
+.usage-list-v2 .container .left .title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--text-normal);
+}
+.usage-list-v2 .container .left .sub-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin: 10px 0 15px 0;
+}
+.usage-list-v2 .container .left .lists .list .list-item {
+  margin: 10px 0;
+  display: flex;
+}
+.usage-list-v2 .container .left .lists .list .list-item .green i {
+  color: forestgreen;
+  font-size: 2.5rem;
+}
+.usage-list-v2 .container .left .lists .list .list-item .red i {
+  color: red;
+  font-size: 2.5rem;
+}
+.usage-list-v2 .container .left .lists .list .list-item .item-text {
+  font-size: 1.75rem;
+  margin-left: 10px;
+  font-weight: 500;
+}
+.usage-list-v2 .container .right {
+  max-width: 480px;
+  margin: 20px auto 0 auto;
+}
+.usage-list-v2 .container .right .usage-text {
+  display: flex;
+  background-color: aliceblue;
+  padding: 5px;
+}
+.usage-list-v2 .container .right .usage-text i {
+  color: red;
+  font-size: 2.5rem;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.usage-list-v2 .container .right .usage-text span {
+  font-size: 2rem;
+  margin-left: 10px;
+  color: var(--text-normal);
+}
+.usage-list-v2 .container .right .usage-preview {
+  max-width: 480px;
+  margin: 0 auto;
+}
+.usage-list-v2 .container .right .usage-preview img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .usage-list-v2 .container .left .title {
+    font-size: 4rem;
+  }
+  .usage-list-v2 .container .left .sub-title {
+    font-size: 2.5rem;
+  }
+  .usage-list-v2 .container .left .lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 992px) {
+  .usage-list-v2 .container {
+    width: 980px;
+    display: flex;
+    flex-direction: row;
+  }
+  .usage-list-v2 .container .left {
+    width: 50%;
+    max-width: 50%;
+    margin-right: 10px;
+  }
+  .usage-list-v2 .container .right {
+    width: 50%;
+    max-width: 50%;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .usage-list-v2 .container {
+    width: 1170px;
+  }
+  .usage-list-v2 .container .right {
+    margin-top: 10px;
+  }
+  .usage-list-v2 .container .right .usage-text {
+    max-width: 480px;
+    margin: 0 0 0 auto;
+  }
+  .usage-list-v2 .container .right .usage-preview {
+    margin: 0 0 0 auto;
+    max-width: 480px;
+  }
+}
+
+/*# sourceMappingURL=usage-list-v2.css.map */
